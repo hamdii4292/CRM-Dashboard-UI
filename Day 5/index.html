@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CRM Dashboard</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+        <div class="dashboard">
+
+            <aside class="sidebar">
+                <h2>CRM Panel</h2>
+
+                <nav>
+                    <a href="#">Dashboard</a>
+                    <a href="#">Leads</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Reports</a>
+                    <a href="#">Settings</a>
+                </nav>
+            </aside>
+
+            <div class="main">
+
+                <header class="topbar">
+
+                    <button id="menuBtn">☰ Menu</button>
+
+                    <h2 id="greeting">Welcome</h2>
+
+                    <div class="profile">
+                        <img src="photo.jpg" alt="Profile">
+                        <span>Hammad</span>
+                    </div>
+
+                </header>
+
+                <section class="cards">
+                    <div class="card">Total Leads: 80</div>
+                    <div class="card">Active Clients: 25</div>
+                    <div class="card">Pending Deals: 8</div>
+                    <div class="card">Revenue: $9,180</div>
+                </section>
+
+                <section class="table-section">
+                    <h2>Recent Activity</h2>
+
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                        </tr>
+
+                        <tr>
+                            <td>Ali Raza</td>
+                            <td>New Lead</td>
+                            <td>Today</td>
+                        </tr>
+
+                        <tr>
+                            <td>Ahmed Ali</td>
+                            <td>Contacted</td>
+                            <td>Yesterday</td>
+                        </tr>
+
+                        <tr>
+                            <td>Anees Rashid</td>
+                            <td>Contracted</td>
+                            <td>2 Days Ago</td>
+                        </tr>
+
+                        <tr>
+                            <td>Abdul Wahab</td>
+                            <td>Contracted</td>
+                            <td>3 Days Ago</td>
+                        </tr>
+
+                        <tr>
+                            <td>Waleed Ali</td>
+                            <td>Contracted</td>
+                            <td>4 Days Ago</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

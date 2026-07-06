@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lead Management Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <h1>Lead Management System</h1>
+            <p>Enter customer information below.</p>
+
+            <form>
+
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter full name"
+                        required
+                        aria-label="Full Name">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="example@email.com"
+                        required
+                        aria-label="Email">
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+92 300 1234567"
+                        required
+                        aria-label="Phone Number">
+                </div>
+
+                <div class="input-group">
+                    <label for="company">Company</label>
+                    <input
+                        type="text"
+                        id="company"
+                        placeholder="Company Name">
+                </div>
+
+                <div class="input-group">
+                    <label for="source">Lead Source</label>
+
+                    <select id="source" required aria-label="Lead Source">
+                        <option value>Select</option>
+                        <option>Website</option>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                        <option>LinkedIn</option>
+                        <option>Referral</option>
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Notes</label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Write notes..."
+                        aria-label="Notes"></textarea>
+
+                </div>
+
+                <button type="submit">Save Lead</button>
+
+            </form>
+
+        </div>
+
+    </body>
+</html>
